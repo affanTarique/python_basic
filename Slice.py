@@ -80,7 +80,7 @@ print
 
 
 #2. How do you slice the paragraph to get the last 10 characters?
-
+#affan
 #3. How do you slice the paragraph to get every other character?
 
 #4. How do you slice the paragraph to get the characters in reverse order?

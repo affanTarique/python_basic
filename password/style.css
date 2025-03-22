@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(135deg, #ffebcd, #add8e6, #ffb6c1); /* Light yellow, light blue, light pink */
+  text-align: center;
+  color: #1a237e; /* Dark blue text */
+  font-family: 'Courier New', monospace;
+}
+
+h1 {
+  text-shadow: 0 3px 10px rgba(26, 35, 126, 0.8);
+}
+
+h1:hover {
+  color: #ff9800; /* Orange */
+}
+
+form {
+  border: 3px solid rgba(255, 0, 0, 0.8); /* Red border */
+  border-radius: 10px;
+  display: inline-block;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px #1a237e;
+}
+
+#container {
+  height: 100px;
+}
+
+input {
+  height: 40px; /* Increased height */
+  width: 350px; /* Increased width */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px; /* Bigger text */
+  border: 2px solid #1a237e; /* Dark blue */
+  background: #ffffff;
+  color: #1a237e;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 10px #1a237e;
+}
+
+input::placeholder {
+  text-align: center;
+  color: #888;
+}
+
+div.progress {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  width: 280px; /* Slightly wider */
+  height: 12px; /* Bigger */
+  display: inline-block;
+  text-align: left;
+  padding: 2px;
+  display: none;
+  background: #ddd;
+}
+
+div div.progressBar {
+  width: 50px;
+  height: 100%;
+  transition: 0.5s;
+}
+
+/* Password strength text color */
+span#percent {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d32f2f; /* Red by default */
+}
+
+/* Strength bar colors */
+.weak {
+  background: #f44336; /* Red */
+  color: #f44336;
+}
+
+.medium {
+  background: #ffeb3b; /* Yellow */
+  color: #ffeb3b;
+}
+
+.strong {
+  background: #4caf50; /* Green */
+  color: #4caf50;
+}
+
+button {
+  width: 220px; /* Slightly bigger */
+  height: 45px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 3%;
+  outline: none;
+  cursor: pointer;
+  background: black;
+  color: #1a237e;
+  border: 2px solid #1a237e;
+  box-shadow: 0px 0px 10px #1a237e;
+}
+
+button:hover {
+  background: #1a237e;
+  color: white;
+  box-shadow: 0px 0px 15px #1a237e;
+}
